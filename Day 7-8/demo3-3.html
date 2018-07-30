@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>三栏布局--flex</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+  			display:-webkit-flex;
+  			display:flex;
+  			margin:0;
+  			padding:0;
+  			height:800px;
+		}
+		article{
+  			flex:1 1;
+  			order:2;  
+  			background-color:yellow;
+		}
+
+		nav{
+  			flex:0 0 200px;
+  			order:1;  
+  			background-color:blue;
+		}
+		aside{
+  			flex:0 0 200px;
+  			order:3;
+  			background-color:aqua;
+		}
+	</style>
+</head>
+<body>
+	<div>
+  		<article></article>
+  		<nav></nav>
+  		<aside></aside>
+	</div>
+</body>
+</html>

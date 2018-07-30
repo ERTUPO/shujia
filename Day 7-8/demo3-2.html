@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>三栏布局--position</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		html,body{
+  			margin:0;
+  			padding:0;
+  			height:100%;
+		}
+		div{
+  			height:100%;
+		}
+		#left{
+  			width:200px;
+  			background-color:yellow;
+  			position:absolute;
+  			top:0;
+  			left:0;
+		}
+		#main{
+  			background-color:aqua;
+  			margin-left:200px;
+  			margin-right:300px;
+		}
+		#right{
+  			width:300px;
+  			background-color:orange;
+  			position:absolute;
+  			top:0;
+  			right:0;
+		}
+	</style>
+</head>
+<body>
+	<div id="left"></div>
+	<div id="main"></div>
+	<div id="right"></div>
+</body>
+</html>

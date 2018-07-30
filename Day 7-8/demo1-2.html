@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>两栏布局-position</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        .main{
+            width: 400px;
+            background: blue;
+            position: relative;
+        }
+
+        .left{
+            position: absolute;
+            background: yellow;
+            width: 120px;
+            left: 0;
+        }
+
+        .right{
+            position: absolute;
+            background: green;
+            left: 120px;
+            width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>
